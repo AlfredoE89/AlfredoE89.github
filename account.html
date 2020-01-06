@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TVC Pharmacy</title>
+  </head>
+  <body>
+    <!--<div id="splash">
+      <img src="https://i.ibb.co/G5jyXN9/logo.png" alt="" class="logo" />
+    </div>-->
+    <div class="content">
+      <header class="app-header">
+        <div class="container">
+          <img class="logo" src="https://i.ibb.co/G5jyXN9/logo.png" alt="" />
+          <input class="search" type="text" placeholder="Search..." />
+        </div>
+      </header>
+
+      <div class="subheader">
+        <div>
+          <p>Sign up free today to become</p>
+          <p>A "TVS Rewards Member"</p>
+          <p>More info in Link <i class="fa fa-chevron-right"></i></p>
+        </div>
+        <img class="newscolor" src="/webimages/Newspaper2.png" alt="" />
+      </div>
+
+      <!-------------- <Main Body Content> --------------->
+         <!----------------------------------------->
+<!------------- Login Form Code ------------------------>
+<!-- Button to open the modal login form -->
+<div class="grid">
+<button class="login-button" onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+      <img class="logo-login" src="webimages/logo.png" alt="Avatar">
+    
+    <div class="container">
+      <div class="items">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      </div>
+    </div>
+
+    <div class="container" style="background-color: rgb(255, 255, 255)">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</div>
+
+<!------------ Sign-Up Form Content-->
+<!-- Button to open the modal -->
+
+
+<!--------- Bottom Div ---------->
+    </div>
+
+    <footer class="app-footer">
+        <ul>
+            <li>
+              <a href="/index2.html" <i class="fa fa-heart"></i></a>
+              Home
+            </li>
+            <li>
+              <a href="/showcard.html" <i class="fa fa-barcode"></i></a>
+              Show Card
+            </li>
+            <!--<li>
+              <a href="/account.html" <i class="fa fa-user"></i></a>
+              Account
+            </li>-->
+            <li>
+              <a href="/find-store.html" <i class="fa fa-map-marker"></i></a>
+              Find Store
+            </li>
+          </ul>
+    </footer>
+
+    <!----------- Script Code ------------>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        // Sign-up  
+        
+        </script>
+  </body>
+</html>
